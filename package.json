@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "pm2 start lib/server.js --watch --interpreter babel-node",
     "webpack": "webpack -wd",
-    "test": "jest --watch" 
+    "test": "jest --watch"
   },
   "babel": {
     "presets": [
@@ -19,7 +19,8 @@
   "devDependencies": {
     "babel-eslint": "^8.2.1",
     "eslint": "^4.16.0",
-    "eslint-plugin-react": "^7.6.1"
+    "eslint-plugin-react": "^7.6.1",
+    "react-test-renderer": "^16.2.0"
   },
   "dependencies": {
     "babel-cli": "^6.26.0",
@@ -30,6 +31,7 @@
     "babel-preset-stage-2": "^6.24.1",
     "ejs": "^2.5.7",
     "express": "^4.16.2",
+    "jest": "^22.1.4",
     "pm2": "^2.9.3",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
